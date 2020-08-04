@@ -1,0 +1,26 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(230, 230, 230);
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls > * {
+    cursor: pointer;
+}
+
+.controls .control__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 100%;
+}

@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(248, 248, 248);
+  padding-bottom: 20px;
+}
+
+.control__button {
+  margin: 0 5px;
+  border: none;
+  padding: 5px;
+  font-size: 10px;
+  color: white;
+  cursor: pointer;
+  background-color: rgb(26, 110, 110);
+}
+
+.generate__pdf {
+  background-color: orange;
+}
